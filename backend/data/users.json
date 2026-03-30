@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Demo User",
+    "email": "demo@gmail.com",
+    "passwordSha256": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+    "createdAt": "2026-03-25T09:10:00Z"
+  },
+  {
+    "name": "QA Engineer",
+    "email": "qa@gmail.com",
+    "passwordSha256": "dff4623ea806573d09a14906cb9cbb0c01e4d41ea1bf105b1434c0853571a643",
+    "createdAt": "2026-03-26T11:30:00Z"
+  }
+]

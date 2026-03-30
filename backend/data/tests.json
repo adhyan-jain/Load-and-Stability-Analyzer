@@ -1,0 +1,224 @@
+[
+  {
+    "id": "run_1775677567251056108",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/post",
+    "config": {
+      "targetUrl": "https://httpbin.org/post",
+      "requestMethod": "POST",
+      "requestBody": "{\"name\":\"adhyan\",\n\"code\":\"1234\"}",
+      "totalRequests": 500,
+      "concurrency": 5,
+      "durationSec": 0,
+      "rampUp": true,
+      "accept4xxAsSuccess": false,
+      "retryCount": 1,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 500,
+        "successCount": 500,
+        "errorCount": 0,
+        "errorRate": 0,
+        "avgLatencyMs": 453.2171079999999,
+        "minLatencyMs": 281.088,
+        "maxLatencyMs": 2061.81,
+        "p95LatencyMs": 774.556,
+        "throughputRps": 10.519450463907766,
+        "totalDurationMs": 47531
+      },
+      "collapseThreshold": "No collapse detected. System appears stable under this load.",
+      "collapseDetected": false,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 90.48178338487864,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-08T19:46:07Z"
+  },
+  {
+    "id": "run_1775737533462841306",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/get",
+    "config": {
+      "targetUrl": "https://httpbin.org/get",
+      "requestMethod": "GET",
+      "requestBody": "",
+      "totalRequests": 100,
+      "concurrency": 10,
+      "durationSec": 0,
+      "rampUp": true,
+      "accept4xxAsSuccess": false,
+      "retryCount": 0,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 100,
+        "successCount": 100,
+        "errorCount": 0,
+        "errorRate": 0,
+        "avgLatencyMs": 528.4716800000001,
+        "minLatencyMs": 274.054,
+        "maxLatencyMs": 1761.417,
+        "p95LatencyMs": 1175.748,
+        "throughputRps": 9.628345850182939,
+        "totalDurationMs": 10386
+      },
+      "collapseThreshold": "No collapse detected. System appears stable under this load.",
+      "collapseDetected": false,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 83.73753333333333,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-09T12:25:33Z"
+  },
+  {
+    "id": "run_1775739261468278736",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/get",
+    "config": {
+      "targetUrl": "https://httpbin.org/get",
+      "requestMethod": "GET",
+      "requestBody": "",
+      "totalRequests": 100,
+      "concurrency": 10,
+      "durationSec": 0,
+      "rampUp": false,
+      "accept4xxAsSuccess": false,
+      "retryCount": 0,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 100,
+        "successCount": 100,
+        "errorCount": 0,
+        "errorRate": 0,
+        "avgLatencyMs": 489.31636000000003,
+        "minLatencyMs": 235.374,
+        "maxLatencyMs": 1513.532,
+        "p95LatencyMs": 1278.227,
+        "throughputRps": 18.96453631708705,
+        "totalDurationMs": 5273
+      },
+      "collapseThreshold": "No collapse detected. System appears stable under this load.",
+      "collapseDetected": false,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 83.02560959078745,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-09T12:54:21Z"
+  },
+  {
+    "id": "run_1775739360131936177",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/get",
+    "config": {
+      "targetUrl": "https://httpbin.org/get",
+      "requestMethod": "GET",
+      "requestBody": "",
+      "totalRequests": 10000,
+      "concurrency": 100,
+      "durationSec": 0,
+      "rampUp": false,
+      "accept4xxAsSuccess": false,
+      "retryCount": 0,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 1491,
+        "successCount": 1391,
+        "errorCount": 100,
+        "errorRate": 0.0670690811535882,
+        "avgLatencyMs": 475.81381020848295,
+        "minLatencyMs": 235.215,
+        "maxLatencyMs": 2413.525,
+        "p95LatencyMs": 1876.844,
+        "throughputRps": 216.24365482233503,
+        "totalDurationMs": 6895
+      },
+      "collapseThreshold": "No collapse detected. System appears stable under this load.",
+      "collapseDetected": false,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 42.0526,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-09T12:56:00Z"
+  },
+  {
+    "id": "run_1775739466921433014",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/get",
+    "config": {
+      "targetUrl": "https://httpbin.org/get",
+      "requestMethod": "GET",
+      "requestBody": "",
+      "totalRequests": 10002,
+      "concurrency": 100,
+      "durationSec": 0,
+      "rampUp": true,
+      "accept4xxAsSuccess": false,
+      "retryCount": 0,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 10002,
+        "successCount": 9991,
+        "errorCount": 11,
+        "errorRate": 0.0010997800439912018,
+        "avgLatencyMs": 422.2834810329292,
+        "minLatencyMs": 276.51,
+        "maxLatencyMs": 2387.49,
+        "p95LatencyMs": 807.973,
+        "throughputRps": 106.97555027915035,
+        "totalDurationMs": 93498
+      },
+      "collapseThreshold": "No collapse detected. System appears stable under this load.",
+      "collapseDetected": false,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 95.46799649070186,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-09T12:57:46Z"
+  },
+  {
+    "id": "run_1775739616249446403",
+    "userEmail": "demo@gmail.com",
+    "targetUrl": "https://httpbin.org/get",
+    "config": {
+      "targetUrl": "https://httpbin.org/get",
+      "requestMethod": "GET",
+      "requestBody": "",
+      "totalRequests": 10000,
+      "concurrency": 10000,
+      "durationSec": 0,
+      "rampUp": false,
+      "accept4xxAsSuccess": false,
+      "retryCount": 0,
+      "costPerRequest": 0
+    },
+    "result": {
+      "metrics": {
+        "totalRequests": 10000,
+        "successCount": 352,
+        "errorCount": 9648,
+        "errorRate": 0.9648,
+        "avgLatencyMs": 13717.452218749992,
+        "minLatencyMs": 9366.142,
+        "maxLatencyMs": 21924.624,
+        "p95LatencyMs": 21853.88,
+        "throughputRps": 446.2293618920125,
+        "totalDurationMs": 22410
+      },
+      "collapseThreshold": "Collapse detected: error rate 96.5% exceeds 20% threshold.",
+      "collapseDetected": true,
+      "retryAmplificationFactor": 0,
+      "stabilityScore": 40,
+      "costEstimate": 0
+    },
+    "createdAt": "2026-04-09T13:00:16Z"
+  }
+]
